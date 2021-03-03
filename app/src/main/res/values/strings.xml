@@ -12,4 +12,6 @@
 
     <string name="second_fragment_label"/>
     <string name="first_fragment_label"/>
+
+    <string name="title_activity_maps"/>
 </resources>
