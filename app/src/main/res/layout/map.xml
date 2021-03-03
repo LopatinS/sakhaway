@@ -8,7 +8,7 @@
     tools:context=".SecondFragment">
 
     <Button
-        android:id="@+id/button_second"
+        android:id="@+id/home_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#7DFD2E"
@@ -21,7 +21,7 @@
         app:layout_constraintVertical_bias="0.976" />
 
     <com.google.android.gms.maps.MapView
-        android:id="@+id/mapView"
+        android:id="@+id/google_map"
         android:layout_width="410dp"
         android:layout_height="484dp"
         app:layout_constraintBottom_toBottomOf="parent"
