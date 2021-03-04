@@ -10,7 +10,7 @@
         android:id="@+id/FirstFragment"
         android:name="com.d6.sakhaway.FirstFragment"
         android:label="@string/first_fragment_label"
-        tools:layout="@layout/second_face_chooser">
+        tools:layout="@layout/activity_main">
 
         <action
             android:id="@+id/action_FirstFragment_to_SecondFragment"
