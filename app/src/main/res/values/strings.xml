@@ -10,8 +10,9 @@
     <string name="logo_d6">^^</string>
     <string name="under_map_text">Карта</string>
 
-    <string name="second_fragment_label"/>
-    <string name="first_fragment_label"/>
+    <string name="second_fragment_label" />
+    <string name="first_fragment_label" />
 
-    <string name="title_activity_maps"/>
+    <string name="title_activity_maps" />
+    <string name="google_maps_key">AIzaSyAMgfqtET2uy0CxwNdnhgvLsuj-PHZQWB0</string>
 </resources>

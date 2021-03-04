@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/FirstFragment">
+    app:startDestination="@id/FirstFragment"
+    tools:ignore="UnusedNavigation">
 
     <fragment
         android:id="@+id/FirstFragment"
@@ -19,7 +20,7 @@
         android:id="@+id/SecondFragment"
         android:name="com.d6.sakhaway.SecondFragment"
         android:label="@string/second_fragment_label"
-        tools:layout="@layout/map">
+        tools:layout="@layout/activity_second">
 
         <action
             android:id="@+id/action_SecondFragment_to_FirstFragment"

@@ -17,13 +17,13 @@ public class SecondFragment extends Fragment {
             Bundle savedInstanceState
     ) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.map, container, false);
+        return inflater.inflate(R.layout.activity_second, container, false);
     }
 
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        view.findViewById(R.id.home_button).setOnClickListener(new View.OnClickListener() {
+        view.findViewById(R.id.button_home).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 NavHostFragment.findNavController(SecondFragment.this)

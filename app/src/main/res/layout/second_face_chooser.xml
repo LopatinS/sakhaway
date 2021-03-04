@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFFFF"
-    tools:context=".FirstFragment" >
+    tools:context=".FirstFragment">
 
     <Button
         android:id="@+id/button_first"
@@ -48,8 +48,8 @@
 
     <ImageView
         android:id="@+id/logo_app"
-        android:layout_width="444dp"
-        android:layout_height="495dp"
+        android:layout_width="412dp"
+        android:layout_height="485dp"
         android:contentDescription="@string/app_name"
         android:src="@drawable/logotip_sakhaway"
         app:layout_constraintBottom_toBottomOf="parent"
