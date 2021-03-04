@@ -15,4 +15,9 @@
 
     <string name="title_activity_maps" />
     <string name="google_maps_key">AIzaSyAMgfqtET2uy0CxwNdnhgvLsuj-PHZQWB0</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_cat_male">Кот</string>
+    <string name="action_cat_female">Кошка</string>
+    <string name="action_kitten">Котёнок</string>
 </resources>
