@@ -48,26 +48,13 @@
 
     <ImageView
         android:id="@+id/logo_app"
-        android:layout_width="412dp"
-        android:layout_height="485dp"
+        android:layout_width="420dp"
+        android:layout_height="316dp"
         android:contentDescription="@string/app_name"
         android:src="@drawable/logotip_sakhaway"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <ImageView
-        android:id="@+id/logo_d6"
-        android:layout_width="141dp"
-        android:layout_height="148dp"
-        android:contentDescription="@string/logo_d6"
-        android:src="@drawable/newlogotip"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
