@@ -14,21 +14,27 @@
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="@string/google_maps_key" />
+            android:value="AIzaSyAMgfqtET2uy0CxwNdnhgvLsuj-PHZQWB0" />
 
 
         <activity
             android:name=".MapsActivity"
-            android:label="@string/title_activity_maps">
+            android:label="@string/title_activity_maps"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.ALL_APPS"/>
+
+                <category android:name="android.intent.category.APP_MAPS"/>
+            </intent-filter>
         </activity>
         <activity
             android:name=".MainActivity"
             android:label="@string/title_activity_maps"
-            android:theme="@style/NoActionBar">
+            android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
-                <action android:name="android.intent.action.QUICK_VIEW" />
+                <action android:name="android.intent.action.CHOOSER" />
 
-                <category android:name="android.intent.category.APP_MAPS" />
+                <category android:name="android.intent.category.HOME" />
             </intent-filter>
         </activity>
         <activity
